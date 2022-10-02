@@ -41,7 +41,7 @@ export default function App(){
   }, [darkMode])
 
   return (
-    <div className='w-full h-screen text-slate-900 dark:text-slate-100 bg-gradient-to-l from-gray-200/50 dark:from-black to-gray-50 dark:to-slate-900 select-none overflow-scroll'>
+    <div className='w-full h-screen text-slate-900 dark:text-slate-100 bg-gradient-to-l from-gray-200/50 dark:from-black to-gray-50 dark:to-slate-900 select-none overflow-auto'>
       <Navbar darkMode={darkMode} menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Header />
       <Features />
