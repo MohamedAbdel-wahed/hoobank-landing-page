@@ -100,10 +100,10 @@ const FooterColumn= ({title,list})=> {
     return (
       <div className="ml-20 self-start flex flex-col gap-y-3 capitalize">
         <h4 className="text-lg font-medium text-slate-700 dark:text-slate-100">{title}</h4>
-        <ul className="flex flex-col gap-y-1.5">
+        <ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-1.5">
           {list.map((item, index) => (
             <li key={index}>
-              <a href={item.url} className="hover:underline text-slate-500 dark:text-slate-300">
+              <a href={item.url} className="hover:underline text-slate-500 dark:text-slate-300 whitespace-nowrap">
                 {item.title}
               </a>
             </li>
