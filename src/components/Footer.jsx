@@ -91,7 +91,7 @@ export default function Footer({darkMode}){
           <span>Copyright &copy; </span>
           <span>2021 HooBank. All Rights Reserved.</span>
         </div>
-      </div>
+      </div> 
     )
 }
 
